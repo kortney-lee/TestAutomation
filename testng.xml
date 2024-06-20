@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+    <test name="TestAutomation">
+        <parameter name="productName" value="Jordan 4"/>
+        <parameter name="quantity" value="5"/>
+        <parameter name="shoeSize" value="M 7 / W 8.5"/>
+        <classes>
+            <class name="verifyAddToCartWorkflow"/>
+        </classes>
+    </test>
+</suite>
